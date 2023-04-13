@@ -1,0 +1,27 @@
+{
+  "name": "react-retry-lazy",
+  "version": "0.1.0",
+  "description": "Wrapper around React.lazy() that allows to retry failed imports",
+  "repository": "git@github.com:maciejkorolik/react-retry-lazy.git",
+  "author": "Maciej Korolik <maciej.korolik@gmail.com> (https://github.com/maciejkorolik)",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "react",
+    "lazy",
+    "retry",
+    "suspense",
+    "error"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "typescript": "^4.0.0"
+  }
+}
